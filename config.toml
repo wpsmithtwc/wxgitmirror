@@ -1,0 +1,5819 @@
+# ListenAddr is the address the web server listens on for serving the mirrors.
+# Defaults to :8080
+ListenAddr   = ":80"
+# Interval is the default interval for updating mirrors, can be overridden per
+# repo.  Defaults to 1440 minutes.
+Interval     = "1440m"
+# Base path for storing mirrors, absolute or relative.  Defaults to "."
+BasePath = "/tmp/mirror"
+
+# An example of a public mirror taking defaults from above.  The Name is
+# generated from the URL by just taking the host and path.
+#
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-console.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-config-mgmt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dasein-cloud-aws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dasein-cloud-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dasein-cloud-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-etc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dasein-cloud-google.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-client-python.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-htdocs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-template.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-helius.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-code.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/keeptheweatherchannel.com.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-baseimages.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-marvin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-create-image.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-chartme.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ois-buildtools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-forecastr.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/digital-theweathercompany.com.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfs-gdicast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wunderstation-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hubot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-pws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dasein-cloud-mock.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/puppet-aws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/LOTNow.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-ffmpeg.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-HAProxyNat.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-gribserver_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wxstn_support_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wxstnemailer_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-metscripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-urlencode.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wupu_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/janky.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/code-of-conduct.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-lbar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-hdf_get_value_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-ops-amazon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chatops-ci.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-cityfiles_rpm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wuidatabase.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfxresponse.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfxresponse-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-ldm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/springboot-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid_jenkins_conf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/resource-publication-events-logger.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfx-historian.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-npd.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-redis.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-geoserver.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-linux-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-api-docs-v1.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-streamer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Mosaic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-envTemplates.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/v1-grid-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-b2b-mobile-headlines.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash-forwarder.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-build-files.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfs-fod-verification.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-graphics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/jersey.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gsrs-localalerts-platform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gsrs-notification-generator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-ios-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-mitmproxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-yum-repo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-ldm-extras.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-radar-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-radar-wdssii.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-radar-wdssii-apps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/appEngine.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Ift-transform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-app-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wunderpants-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Tessera.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-widgets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/v1-grid-console.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-pilotbrief-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-autobrand.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/api-checkout-zuora.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-webcam-ffmpeg.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfx-replay.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfx-deployer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-training-java.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fodboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-geoipdata.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash-contrib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Maelstrom.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-legacy-wxsystems.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfs-ngwx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-pilotbrief-ios-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-training-spring-ioc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-portal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/aws-elk-billing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-configurations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wfxprofile-fe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-analytics-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ice-miner.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-cross-platform-mobile-eval.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-b2b-mobile-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-channel-manager.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-pilotbrief.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-channel-manager-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-channel-manager-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-channel-manager-nginx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-storm-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ds-api-verification-framework.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-pilotbrief-universal-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AudioForecast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-NOVA.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-channel-manager-publisher-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-python3.4.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wunderground-django.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-nodejs-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-trader-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-secrets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-pilotbrief-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-qa-testing-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-qa-testing-software.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-load-nnf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-slingtv-demo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-mobile-ci.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-forecastr-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-git2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-nimbus-slack.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-pod-specs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-wukit-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-jet-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ruby-lumberjack.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash-input-lumberjack.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash-output-lumberjack.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-deploy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-qcdb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-devops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-app-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyTraderWeb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-ingestor-dirmon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-gribctrl-dirmon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-mpctrl-dirmon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyDB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyGeneric.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/StormTheRoad-Hackathon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-trax.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyGFS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-gem.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-recon-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-weathercom.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-drupal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/MOM.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-sitemap-gen.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-generator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-debugger.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-sandbox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcdigital-iphone-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcdigital-ios-podspecs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-gor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-sun-js.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-logging-audittrail.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/terraforming.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-js.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod-saltConfig.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-typhoon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod-shortrange-browser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod-longrange-browser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-rainalert-browser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-recon-plan.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-tropical-recon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-import.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-iptables-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-grads.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fodbot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-degrib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-portal-drupal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-trafficcams.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-customforecast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chef-server-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solara-python.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tv-ott-env-mgmt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-severe-loc-finder.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-map.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/lorenz.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ops-env-mwfour_poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/generator-twc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-alertingengine.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-notifier.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfxlib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ExoPlayer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/googleads-ima-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/google-media-framework-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-pushservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AdFX-Automation-IOS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-truvu-max-monitoring.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/aws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/s3-load-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-hooks.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-jetstream-spark.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-jetstream-kafka.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/MobileAppsQA-Automation-iOSPhone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/MobileAppsQA-Automation-AndroidPhone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-hirad.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/atl_ops-zabbix-templates.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-hirad_ff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeandroid.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-flagship_phone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-Ads_2.0.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-DAL_2.0.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-flagship_commons.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-flagship_config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-flagship_sandbox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-google-media-framework-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-ima_sample.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-performance_reporting.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-performance_tester.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-Util.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-UtilStub.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-WSIFramework.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-ercot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-tropical-water-level.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-client-portal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/eph-logdrive-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-training-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/yum-repo-mirror-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-api-usage-charts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-api-usage-charts-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-featurizer-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-datapullups-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mongodb-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-cms-mmclip-bridge-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-survey-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-novagif-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-drupal-reboot-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-packaging-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-ugc-ingest-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-wxsnaps-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ftp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ds2-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-gtx-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mysql-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-portal-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyCleanedObservations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ca-root.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ca-yum.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-chefmanager.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-mgmt-jenkins-prod.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ca-dev.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-mgmt-jenkins-nonprod.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-dsxx-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-jenkins-sync.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-grapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcdigital-ios-iphoneflagship.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfx-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/SampleCode-Java.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mapprocessor-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-hirad-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/app-appletv-original.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ftp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/java-api-wrapper.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-storm-reports-browser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-authentication.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/leakcanary.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfx-testclient.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-mpfarm-processing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-java-projects.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/terraform-provider-softlayer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-jenkins-provision.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-dsx-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyLinuxCore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/isis-snowdepth.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/isis-snowmeltratio.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/isis-snowtotalprecipratio.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-qatgearth01html.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-aws-janitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-common-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-20151001-joaquin-cone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-aviation-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfx-api-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-pjm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-sitemap-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-artifactory-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-protomaps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-renderer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pure-ftpd.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-gringest-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-cassandra-enterprise-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-jminix.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/multivac-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-zabbix-python-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-di-cdi.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connections.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-catalog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-api-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-api-ingestion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-helloworld.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-api-helloworld.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-wsiml.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ups-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-samsung-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-unisearch-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-akamai.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-bulkloader.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-dfpclickingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-dfpimpingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-adimpressions.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-informatica.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-insinkerator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-mobilelocations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-locationexport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-omniture.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-simplesparksql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-spark-sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mvac-insights-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mvac-walerts-dpe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-visualizer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-imap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-streamengine.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-twcs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-sun-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-microservices-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-solara-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-fod-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-dsx-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-maps-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-mobile-android-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tiler.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-ldm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tiler-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-aop.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mvac-chef-insights-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-cms-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-location-data-viewer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-datapullups.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-cassbackup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-weathertweet.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-dfp3.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-spark-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AdFX-Auto-SmokeTests-Idevicesyslog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-secrets-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-yum-repo-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/angular-styleguide.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-microservice-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-dp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-siriusxm-datasvc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ali-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-apron-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-autoscaling-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-hadoop-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AdFX-SmokeTests-Idevicesyslog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/git-style-guide.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-spark-utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-mobile-ios-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-ds2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-skeleton-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-iphone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-ipad.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-podspecs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-outsider.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-appletv.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-wxfoundation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-videoplayer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-wxsvgkit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-comscore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-appsupport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-imagesmooth.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios-zoomlevel-metal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-dsxclient.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios-zoomlevel-opengl.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios-opengl-applemaps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios-model.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeandroid-data-loading.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-prototypeios-data-loading.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-stormtheroad-hackathon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-wsr88d-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-wsr88d-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-noaa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-omniture.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-ups.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-wxd.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-upssignup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-content.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-maps-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-version.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-videoplayer-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-adsupport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-backgrounds.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/TheWeatherCompany.twcios.github.io.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-deeplinks.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcdigital-metrics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-historical-observation-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-map-pangea-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/MaxMobile.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mapserver-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-memcached-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mgmt-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-prs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-sundal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-historical-observation-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-historical-observation-client.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-automation-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Developer-Conferences.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-glue-to-s3.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid_lin_example_hello_world.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid_win_example_hello_world.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-FODalerts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfs-research.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-ui-testing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/win10.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-search-console-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-solr-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-systools-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-zabbix-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/win7.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/win80.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/win81.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-logging-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/apache-okta-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-controller.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-circuitbreakers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-internal-appletvdashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-gelk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-contentFeed.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-brooklyn.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/softlayer-go.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-brooklyn-jclouds.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pws-dailysummary.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-glue-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-FODtextalerts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_cms.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod-chef-misc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chef-migrations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-teamcity.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-yumrepo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-urlcontentsarchive.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid_lin_supermarket.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-supermarket.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-ldm-http.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-ldm-http-client.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-supernova.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/FiloDB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-packer-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fod-janky.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-grldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxc-fodforecastgen.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/davinci-mobile-web-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-router.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solara-data-verifier.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-log-metrics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-base.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solara-parse-apis-for-packages.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-global-tiler.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-nowcast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-topps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tessera-sunset-proxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-svc-ingester.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-tools-cod-validator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-cms.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-tools-litmus.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-prs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-messages.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-metrics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_packaging.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-phone-selendroid-regression.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-mapserver.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-mapservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-java-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-rabbit-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-lifestyle.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pwsingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-forecast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-fod-support.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-sample.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-batch.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-env-wxmix.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-android-ad-validation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solaracore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-nginx-aggregate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-load-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-observable-cql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-poc-api-rxjava.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-java-api-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ad-call-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-ds2-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/demos.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/adipose.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_auth.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather_snapshot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twitter_listener.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxsnaps_twitter_stream.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-cards-twc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-cards-partner.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-lifestyle-oapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/geohash-scala.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-ups-util-mkusers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/datarc-rqtc-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ups-angular.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-cleanfactory.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-memcached-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/apache-brooklyn-go.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-appdynamics-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-apron-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-autoscaling-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-collectd-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-dpe-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-eae-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-graphite-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-catalog-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-jet-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfx-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototypes-universal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-apron.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-DAVE.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-deployment.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-flume-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-soft-repo-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-gwn-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-iapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-kafka-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-loc-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-mapprocessor-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-oapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-redis-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-tile-paletter-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-dsx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-aoapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tizen_main.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tizen_phone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tizen_watch.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-storm-win.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-dfpp-adcalls.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-simple-phone-ad-validation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-iphone-bvt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-akamai-cleanser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-elastic-search-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-dsx-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-fod-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-flagship-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ios-test-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-iphone-master-test-collection.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-encryption.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-perfresults.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-wfx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ads-android-testcode.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ads-iosapps-testcode.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-tomcat-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-zabbix-agent-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-zookeeper-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-zuora-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/s3-archive-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-aggeng-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-brooklyn-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-jenkins-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-localizedweather.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-search.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-searchconsole.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-rastorizer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ups.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-tablet-android-regression.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-sun.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-services-test-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-perf-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-metricsdashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-phoneredesign-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-phone-android-regression.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-networkcalls-listner.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-minorityreport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-minority-android-testcode.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-ipad-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-gamma.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-wxc-uplink.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-android-ads-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-DPRecords.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-script-encryption.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-SunAutomation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-elastic-search-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-cassandra-scoredb-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-fodingestor-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-lime.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-space-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-performance-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-performance-results.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-zabbix-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-zabbix-proxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-stackdriver-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-ugc-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-lampp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-jenkins-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dampp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-base-web-christo-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-chef-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-kibana-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-baseimages.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gdicast-grads.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-outsidersupport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-api-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-env-obsqc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-google-media-framework.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-drupal-web-christo-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chefproxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-jenkins-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-log-courier-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-logstash-forwarder-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-score-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-usage-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-deviceidpassback.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-vauth-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-sl-infra-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-wunderground.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tizen_twc4s_watch.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-config-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ingestion-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-mapserver-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-maptools-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-cloudsherpas.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-pangea-model.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-apidiff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-varnish4.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connection-rabbitmq.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tims_misc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-today.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solr-location.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-alertingestor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-bounceprocessor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-contentgeneration.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-distributionserver.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-dsxx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-ups.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dataprocessor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-crowdsource.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-intellicast.com.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fod-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-eventdriven-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/JCE-Tester.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-ng2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/appletv.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/deployment-automation-templates.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/blueMarble.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxii-backup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mwi.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hp_mw4.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mw4.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sitemap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ingest-ldm-canadian-alerts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tilepaletter-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/maps-pangea-ios-sample.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-b2b-mobile-android-test-gcm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-wunderground-web-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-b2b-mobile-android-test-keystoreEncryp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-location-update-events-cleanser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Microcast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-it-utilities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-alt-livewire.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-aop-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-sysengtools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-suntools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-wuhistoricalobs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-sunset.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-cf-aws-us-east-terraform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-logstash-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/encryption-test-cli.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-twcMapboxRadar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfod-grads.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gfod-gradsweb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-airquality.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-dct-datavis.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-router-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-20150128-sandy-cone-rebuild.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-20150204-sandy-surge-rebuild.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-aggregate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-b2b-mobile-android-mapsdk-demo1.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-WXCAkamaiIdentityServices.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-historical-observation-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-mapprototype.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-moat.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-phrender.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-cache.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-contentservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-brews-web.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-brews-ingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-storm-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fod-terraform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-tileware.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wpn-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-fodmon-install.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-ad-performance.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-parqrewriter.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-salt-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/md_documents.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-phrender-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-profile.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/amazon-kinesis-connectors.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-maven-repository.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-analytics-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-commons-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-devops-interview.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-lite.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-rpm-build.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-nodejs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-datasource-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-dataprovider-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyQAAutomation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-okta_aws_login.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-ads-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-StaticMapGenerator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-chart-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-wu-trends.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-location-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-map-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-android-membership-library.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-aop.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-config-monolith.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-tools-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-uql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/check_mk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-verif-perl-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tessera-shim.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wucipher_js.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/load-balancer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-sandbox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-devops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-mapserver-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-astro.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-alerting-services.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mpx_dev.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-geo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-topps-smn.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mpx_repo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-indices.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-gradle-plugins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-ssghttp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-ssglib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-ssgmock.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-cfg.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-samsungtestharness.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-translation-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-newrelic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-consul-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-compute-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-screamingfrog-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-dirmon-demo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/B2B-SysAdmins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-riak-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-nws-noncap-parser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-alerts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-nexus.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tilercache-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-packer-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-lifestyle.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-infoserver.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/js-framework-eval.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-location-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-auth-accounting.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-interview-objective-c.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-interview-swift.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-tesserashim-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/speedy-twc-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-airporthistory.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-wupws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-swagger-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-redism-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-head-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-viewer-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-alerts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-style-guide.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/nexus-notifications-SubscriptionReader.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pgarrett-test-git-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fod-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-distributor-dirmon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf_aws_vpc_advanced.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analysis-specs-bar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-gradle-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-flightfx-web-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-web-creative-json-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-network.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/UP_WU2TWC.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wndstrm-snd.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-verif-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-whirlpool.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-staticmaps-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connection-redis.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-bastion-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-whirlpool-mqtt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/nexus-notifications-SubscriptionPurger.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/nexus-notifications-NotificationTrackingReader.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connection-riak.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connection-s3.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-common-connection-cassandra.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-jenkins-helpers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/router-load-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-docker-images.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcmobile-groundhog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gdocs-conversion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-field-and-facilities-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/vectordata.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-lite-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/internet-org-in-docker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-wx-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Leaflet.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-api-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chef-supermarket-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyHAT.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-catalog-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-whirlpool-dryer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-whirlpool-washer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/VectorTile38.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-field-and-facilities-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/atl_ops-chef-repo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/UP_Sql2Mongo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-mvn-bootstrap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-api-whirlpool.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-miscellaneous.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightfx-fly-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-googleimatableview.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-android-yoursay-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-android-map-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/devsetup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-media-max-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-alerts-iapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dna-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_page_test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyInfrastructureDeploy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-miso.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-solara-admin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-test-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation-plus-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-vectordata-ingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation-plus-KTC.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-alerts-oapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/atl_ops-chef-bind.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-widgets-prototype.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-lite-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ampfbia.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nextgen-architecture.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-flightfx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-ios-map-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-alerts-dpe-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-provisioning.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-profile.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-streams-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-provisioning.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-ios-yoursay-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-b2b-mobile-localization.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-streams.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-crossregion-vpn.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/glacierthaw.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/solara-cli.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-alerts-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mobile_crash_stats.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-vectordata-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-forecast-load-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dna-vcls.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/SparkMLTestsWU.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-fusion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-ff-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-check.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/CreativeLab-BBG-Web-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tmulhern_hw.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fod-bootstrap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/multivac-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-ldm-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-prproxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-caiso.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-updatepullrequest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-auth-proxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-stage-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/zabbix-java-agent.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-jet-qa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-zookeeper.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-wu-historySummaryIngest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/github-monitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf_aws_chefmanager.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-wafi-iapi-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-insights-sbs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-hockeyapp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-localytics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-wafi-dpe-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-alerts-dpe-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-api-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-app-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-marketing-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-sbs-endpoint-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-zookeeper.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-media-max-3pp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-media-max-3pplib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-localyticsDataIngest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/runit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-common-old.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sb-data-avf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-data-agg-server.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-auth-user-mgt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-auth-authorizer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-sunftp-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/UPSDataForAnalytics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-env-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-cf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-data-acq-server.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/async-defer-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-platform-server-security-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-env-nowrad.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-thrift.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dpe-python-thrift.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-aws.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-framework-AGOF.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/harvest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-mobile-cookbooks.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pws-history-sun.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-docker-machine-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/engage-video-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/engage-npm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/zookeeper-platform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wdssii-mcidas2015.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wafi-nodejs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-vectorcache-json.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-gem-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-vectorcache-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-service-mappings.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-cfg-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-teamcity-docker-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ecr-login-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-fusion-DB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-bar-model.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Umbrella-Examples.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-ui-playground.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-articleparser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-astro-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-core-engineering-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/webdev-standards.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/swift-style-guide.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/postfix-ses-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-bot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/messenger-bot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streamsx.sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-bar-parquet-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-wear_complications_prototype.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-kestrel.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-services.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-hubcast-DB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-optima-DB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wlife-env-kub.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/logstash-input-sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-radar-apps-extras.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-radar-wds2tiff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-wdssii-mcidas2013.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/golang-stuff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Git-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sltf-env-dev.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streamsx.cassandra.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-gowx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-alertingengine-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/javascript.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/redis-web-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcreact.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ent-cnvgrib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streamsx.idleevictor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-mobile-metrics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mapbox-gl-js.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-personalization-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-polymer-header.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-core-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-weg-gdal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-vectordata-polling-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-proxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/andover-account-workforce.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/watson-life-env-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/watson-life-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-automated-integration-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/watson-facebook-bot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-cicd-sandbox1.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-flue.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/devops-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-falcor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-varnishtilepaletter-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/stetho.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-checklist.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/bot-microservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-react-hourly.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/engage-node-npm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-akamai-analysis.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation-plus-ios-ktc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation-plus-android-ktc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-datascience.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-StaticMapAssets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gem-repo-generator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-env-avf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-redisha-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-mosaiccache-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-load-renewables.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weather-analytics-fod.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pwa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-aliwebproxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/picasso.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-tropical-water-level.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wx-tropical-recon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/https-github.com-TheWeatherCompany-pwa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-fusion-webserver-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-spray.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyTrader-Android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ads-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxmix-mon.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ads-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-react-widgets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-mission-control-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-automation-plus-reporting.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/messaging-broker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/WU-qa-automation-plus-ios-ktc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-flightfx-deploy-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/WU-qa-automation-plus-android-ktc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-marketing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-alerts-dpe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-finance-update.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-sbs-endpoint.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-cassandra-migrations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/domesticweather.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wunderground.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-auth-origin-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/jenkinsdemo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-sun-api-counts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-alps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-integration-testing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-ovid-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-ui-template.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-cron-silverpop.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/go-webservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/research-rabbit-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-ff-metasvc-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-test-commons.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-test-utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-failover-page.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/EnergyAWS-misc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-spark-bare-simple-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-fx-aaa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-spray-json4s.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-spray-circe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-agile.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streamsx.parquet.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-StaticMapGeneratorUI.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-SQLonSpark.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/messaging-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-dw-sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-apron.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/flink.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ca-prod.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-zooklient.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android_lite_config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-docker-asg-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-ingestion-geocoder-cache.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-env-qaas.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-infoserver-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-dalite.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fb-messenger-bot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/message-sender.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-hubcast-map.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-next.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-streams-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-portal-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-portal-admin-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-portal-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxlabs_deep_learning_sky_conditions.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-offramp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-wafi-metering.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-devops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-monitoring-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ingest_facebook_bot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ECMWFftp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-optima-devops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-urbancode-agent-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/systemd-docker-fork.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/devops-notes.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-design.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-cmap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-bastion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-nodejs-hive.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-cron-silverpop-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/weathersecure.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-db2-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-quebert.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-be-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/datascience-utilities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-historical-alerts-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/webservice-with-logstash.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/locationfx-auto.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chef-secrets-demo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-ssds-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-workright-dpe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ms-pws-helpers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-app_behind_elb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-app_autoscale.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-auto-keyword-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-workright-dpe-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-calculator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-android-plugin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/preroll-ads-performance.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-apps-console.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-logging-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-jira-intro.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/koa2-hello-world.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/SassPrototype.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-api-backend.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nodebase-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-user-segments.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pt_ops-sandbox-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pt_ops-sandbox-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-terraform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-documentation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/talos-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AutomationFramework.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/AutomationFrameworkDemo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-api-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/das.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-obs-temperature-bugfix.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streams-install-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-dynamicmaps-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/generator-web-nerf-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dna-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-localsuite.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-SQLonSparkConfigs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Trolly.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-okta-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-auto-keyword-pom.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-auto-keyword-twc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/location-vz-bck.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-sdk-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-locationdata-etl.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-sdk-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-cogads-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf_aws_vpc_w_nat_instance.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/talos-portal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-mongodb3-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-nodejs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-ide-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-registry.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/streamsx.crypto.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-kafka-topic-initializer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-admin-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-flightfx-common-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-saved-dfrs-navlogs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-component-wp-boilerplate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-member-admin-v2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash-paz.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/location-vz-fe.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pws-data-sqs-java.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-generic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-pws-qa-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-graphql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/generator-npm-module.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-smartling-server-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-hd_wxtype.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-wxicons.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-turbo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/p13n-auth.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-weatherfilms.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-ldmpub-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/widgets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-geo-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-geo-location.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/chefwatson-sendgrid-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/smartling-boilerplate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/markdown-style-guide.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-ide-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-iotf-bridge-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-iotf-bridge-packer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pws-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu_device_dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_onboarding.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/npmsearch.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-fx-validation-svc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pws-ingest-udp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-project_build.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-location-update-SSDS-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-verif.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-legacy-pullscripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-graphql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-monitoring-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-monitoring-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cyanogen_widget.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/nlp-unified-2014.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-data-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-DynamicMapGenerator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-PTAF.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-cron.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-Rocks.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-traffic-gen-mqtt.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-chef-ui-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/engage-e2e.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-jenkins-pipeline.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-ads.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-iot-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-locationupdate-aggregates.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-pcpdpe-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-configurations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dev-standards.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/eslint-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-platform-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-articles-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-admin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/aggengine-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-3up.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/datadog-plugins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-stackstorm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-governator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-proxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-user-segments-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-messageExtension.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cx-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-drive-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-landing-page.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-keymaster-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-vpn-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/terraform-provider-swift.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-portal-admin-ui-sn.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-portal-admin-ui-sn-two.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/graphql-perf-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fb-bot-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ads-web-performance.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-geo-app-aggregations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk_backend.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/component-twc-search.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-radar-wgrib2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/messenger-platform-samples.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-jenkins2-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/stackstorm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-jenkins-seed-jobs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-shine-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-ad-recover.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/content-performance-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qc-obs-artifacts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-point-grid-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-homepage.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-common-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/spring-boot-svc-host-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-observations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/engage-micro-services.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-docker-sources.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-cassandra-scala.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gdal2-build.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mobdash-bar-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-reports.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ui-buildkit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-kube2pyconsul.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-k8s-cluster.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-icons.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/openresty-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dig.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/nodejs-app-from-s3-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-platform-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-jenkins-docker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-SwiftyJSON.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-znode-upload-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-almanac.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-flightx-db-schema.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-alerts-ingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/PSGBootstrap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap_GribNav.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-appfoundation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-bar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash-mock-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-filiptest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-systems-drawings.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rjminsha.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/alerts-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-dal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pastobs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-farming-almanac.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-jet-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/javadoc-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/TheWeatherCompany.github.io.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/briankwan.github.io.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-universal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-forecastertools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-pm2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-hystrix.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-device-summary.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/parq2cass.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-metrics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-flightfx-ms-ingester.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxc-datacloud.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-env-monitoring.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-met-office.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mpx-test-drive.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototypes-apnstest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-streams-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ibm-research-zookeeper-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pois.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-met-office-science.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-radar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tal-jenkins-tries.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-currentobs-ingest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-content-sizzler.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-shine-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-spark-worker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-autoTAF.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-sd2arps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-distribution-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-pas.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-fx-processing-svc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-varnish-tiler-api-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/UDP_Practice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sampleSDK.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_monitoring_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-contentFeed-phase-2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-iconblast.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-public-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-shine-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-ups-to-dashDB.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-superpolluters-theme.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-lambda_tagvolumes.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-metrics-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-dash-mysql-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/g3api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/WSI-BuildServer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hackathon2014.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/graphql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-services-convo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-almanac-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pastobs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-currentobs_ingest-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-volumes-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-push-notification-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-nodejs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-mongodb-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fsdatatech-CellPhoneObs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fsdatatech-QCSWOweb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-traefik.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Ingest_CogAds.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-pulsar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ldm-pqmon-datadog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-storytelling.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-amqp-connector.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-reversetunnel-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/g3worker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-WRFDA.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-bufr_utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-download-salttest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-chef-ui-server.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-service-mock-provider.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/MoatAPI.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-publishing-platform.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-GSI.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-WRF.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-WPS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/akamai-amp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/omniture-visitorapi.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-logging-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/omniture-appmeasurement.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-pulsar-simulator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-sbt-loadtest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-platform-nodejs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_amp_template.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-amp-article-generator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-joeDotAtl.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-admin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-pf_verify.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-base.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-autoFPG.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-ui-convo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxc-dc-load-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-rpmweb.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-vgraphics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-regression.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-rpmcloud.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem3-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-convo-api-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-convo-ui-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-skin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-observations-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-python-hdf-utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/node-rx-weather.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/creative-lab-skeletons.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/node-bar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-nyiso.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-streams-node-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/location-vz.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-cirrus-ca-dev.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-cogads-loadtest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-cassandra-tf-module.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-api-gw-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-architecture-overview-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-lf-isone.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-jet-frontend.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Loc_Updates.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-mosaic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-shine-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-cluster-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-locationdata-tuner.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-dcm-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-datadog-log-parsing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-asg-elb-chef-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-event-timing.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-skin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-profile.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-spark-locations.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Bwolshin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-trends-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dev-bookclub.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-engine-server.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-preprocessing-polling.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-ingester-taps.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-customer-success.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/graphicplayer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/psg-java-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/p13n-react-utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-radar-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-portal-snippets.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-code_generator-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-portal.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/indsol-cassandra-softlayer-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-builder-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-rabbitmq-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/shine-cli.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-jenkins-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wcs-gfod-grid-monitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-nfs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/TWC-ADOBE-ANALYTICS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/TWC_ADOBE_ANALYTICS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/adobe_clickstream_analytics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-fusion-terraform-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-playground.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-boilerplate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-core-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-ARPS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-zookeeper-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-base-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-flux-math.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-downscale.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-docker-images.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-redis-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-engine.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-product-documentation-standards.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-pf_dstore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-venture.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/aws-sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-iot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/industry-sol-dash-client.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-rabbitmq.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pfp-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_artifactory-resource-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-typeclasses.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-ui-convo-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-zookeepercluster-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cogads-convo-tools-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-kafka-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ACA.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-riak.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-bot-backup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-moat-backup.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-matthewc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-peering-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/parquet-regen.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-rules-runner.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/lakeofdanger.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-flux.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-geomesa-jupyter.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/docker-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gem-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mb-sandbox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/WatsonIVA-FbM-UPS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-bastion-build.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-consul-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-nomad-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem3-infra.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf_aws_bastion_instance.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-docker-cache-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/spp-docstore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/okta-aws-cli-assume-role.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ios-map-demo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-mapbox-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-vregress.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf-module-single-instance-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-streams-build.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dataviz-poc.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/consul-bootstrap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototype-obfuscater.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-GlobalNWP.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pfp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-geo-cassandra.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Wsi.Media.Core.Test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-dotnet-core.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-FileService.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/content-variants-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/p13n-testing-common.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-web-buildmgr.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-polling-preprocessing-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-src-concat.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-lease-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem-status.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/tf_aws_consul.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-wxyz.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/JugaadMesh.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wc-nodejs-builder.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-search.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/grid-gem3-workers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pfp-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/python-sdk.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pfp-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-gfod-ldm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-pulsar-prometheus.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/newspaper.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-thesourcefilm-theme.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-realdeathvalley.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-pfp-gateway.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-climate25.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-location-service-shapefiles.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-katrina10.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-epicearth.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-stargaze.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-github.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-mobile-deploy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-catalog-visualizer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-ens-clustering.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-icebreakerstudios-theme.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/lifestyle-web-logic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-openshift-env.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-storage-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-redis-cluster-tf-module.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-setprstatus.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-setprlabel.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-addprcomment.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/openshift-ansible.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/spark-job-from-s3-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash-selenium-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-running-index.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-web-kestrel.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-hrl-prospects.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-mapbox-runtime-styling-layers-sample.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-appsflyer-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iap-config-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chrome-extension.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-csv-to-parquet.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-core-soa-lib.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-job-garbage-collector.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-foundational-customers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-tf-module-bastion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/node-location.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/parquet-consolidation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-meteoalarm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fx-platform-devops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ws-alerts-viz.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wxu-radar-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-graphql.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-cmap-wxpro.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-web-jirawebhook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-lifestyle-teasers.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-consul-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-wwir.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-scalate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-core-consul-utils.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-api-monitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-api-monitor-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-php-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-maps-docs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-geomesa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/metricsapi.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-theming.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-theraflu-export.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-qa.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-file-download-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-microservice-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dna-varnish-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/employee-management.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-data-keys.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-data-ops.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pfp-service-box-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-qaas-sqs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-pfp-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-fileservice-proxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-web-deploy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-tools-kestrel-analytics.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-experimental.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/validation-framework-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-vagrant.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-control-panel.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-datalake.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/omniture-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-modules-storytelling.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/docker_iot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/gateway-configs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/blueprint.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-assets-fastly.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cloudlet-redirect.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-segmentation-to-ups.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-lvm-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/utilities-framework-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-navigation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-capabilities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-glue-global-delivery-report.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/monthlyappreview.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/variants-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/Test_BluSpark_SQS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/solara-v2-it-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-popover.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-overflow-navbar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/santatracker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/oi-git-sandbox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-astronomy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/redux-window-events.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wca_resource_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/newspapersmall.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dna-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/BARbehaviour.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-server.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-buildagent.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-datacapture.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-monitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-flux-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/homeWorkTagging.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-issues.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-app-boilerplate.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mobdash-issues.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-init-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-varnish.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-cassandra-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/rules-integration-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-info-service.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-samsung-feedback.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-service-box-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ups-docs-gen.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-struct-converter.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/readthedocs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-spark-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-ddapi.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-datadog-cfg.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-jiradata.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-kestrel-updatejira.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/variants-cdn-sync.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-auto-wpt-rest.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-auto-wpt-dashboard.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-global-airquality.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector-aio.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hobs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-comscore.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-maps-roadmap.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-labs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pulsar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-utilities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-connectivity.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-statemachine.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-location.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-configuration.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-map.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-legend.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-ui-restoration.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-dogstream.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/inferno.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-wrk-perf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/vangoh.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/go-zookeeper.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-wu-trends-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc_redis_cluster_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_tilecluster_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/fchefsh.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-footer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-header.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-zap-test-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/go-curator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-cf-lightning-dist.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmsbot.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-core-datadog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ml-eval-v3.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/openshift-chef.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dd-agent-plugins-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/graphql-docker-vegeta.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-rasterdata-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sat-ftp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/JugaadMeshAutomation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-app-flybusybox.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-suntomcat-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pipeline-ui.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cognitive-ads-convo-db.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/android-UpsSpammer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/iron-functions.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-util-localization.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-pbo-terraform-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-usersession.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/airlock-move-console-ng2.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-feedkit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-hobs-automation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-quickmart.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-geos2geotiff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-ds-notam-nlp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-pygoesr.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/DeepLinkKit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tiler-api-scala.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/avn-env-pbo.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-front-end-framework.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-scripts-legacy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/graphql-ansible-vegeta.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-nodejs-restify-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-tf-module-bastion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-topcities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-engage-jenkins.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/clj-pulsar.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-vr-tornado.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ow-dig.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twctestapp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcreport.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcmonitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcmetadata.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcjobs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcdocs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcbroker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcadmin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_consul_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdeadmin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdebroker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdedocs.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdemetadata.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdemonitor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdereporting.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdeservice.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cdetestapp.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cassandra-consistency-test.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-dummy-app.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hod-external.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/popcorn-time.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-renewables-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-gimp-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-cascading-properties.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cassandra-stress-datadog.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/phpdiff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-cakes-openshift-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-hobs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-maps-ios-support.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-maps-android-support.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-maps-web-support.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/qa-bigweb-testrail-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-env-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-chef-repo-example.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-dpe-tropical-besttrack.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/platform-yum-repo-client-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-prototypes-cardfeed.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-ecs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cloudwatch-logs-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dig-ow.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/newspaper-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/docker-hello-world.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-cf-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-dig-docker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-flightdatasource.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-crazimals.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-features.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-thesourcefilm.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-icebreakerstudios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-superpolluters.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-journeyofthehop.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-toxiclake.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-api-contract-validation.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-watsonads.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-media-adlab.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-media-creativelibrary.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-wads-journeyfx.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-media-advertising.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-wxcompany.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-goesr-simulator.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-wxpro-config.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-wxpro-scripts.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-sentinel-ios.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-goesr-simulator-sample-data.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/energy-graphicsingestor.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/resend-verification-email.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-tools.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/dsa-cogads-utilities.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-redirector-ow.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/letschat.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-apps-fly.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-mesh.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/analytics-jobschedulerex.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-pws-obshistACL.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-datasource.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-navigationdatasource.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sat_ldm_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/pccs-hackathon-moodw.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-router.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-topcities-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-goesr-dataPoll.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-vpush-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-moonracer.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/JugaadMesh-iOS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-FODConverters.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/insights-weather-qa-api.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/OPLite.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-adkit.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-synthetic.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-tiler-gtiff.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds-ldm-proxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cmap-MPAS.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sun-ms-links.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web-nerf-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web_cakes_openshift_pre_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_vectordata_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/ssds_vectorcluster_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-dcm-tf-module-bastion.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-dcm-sun-env-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wu-dcm-grid-env-modules.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-rate-tracker.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twc-es-proxy-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/cpg-dns-cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-field-and-facilities-admin.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/wsi-media-inrix-proxy.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/sdk-alerting-android.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/opro-env-tf.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash-integration-tests.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/mob-dash-ab-mock.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/twcios-frameworks-routeparser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/web_cakes_openshift_post_cookbook.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/question-paraphraser.git"
+
+[[Repo]]
+Origin = "https://github.com/TheWeatherCompany/hod-ingest.git"
+
+[[Repo]]
+Origin = "TheWeatherCompany/ssds-synthetic-cookbook"
